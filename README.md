@@ -17,3 +17,7 @@ commit;
 DROP TABLE userinfo;
 
 select * from userinfo;
+
+
+<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/myoracle" password="hong" type="javax.sql.DataSource" url="jdbc:oracle:thin:@127.0.0.1:1521:myoracle" username="ora_user"/>
+      </Context>
